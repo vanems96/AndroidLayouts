@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameLayout">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Button 1"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal|bottom"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imagen_background"
+        android:layout_gravity="top|center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/twitter"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/whatapp"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:src="@drawable/whatapp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/android"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:src="@drawable/android"/>
+
+</FrameLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableLayoutActivity">
+
+    <TableLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="goVerticalLinearLayout"
+                android:text="Linear Layout (Vertical)"
+                tools:layout_editor_absoluteX="143dp"
+                tools:layout_editor_absoluteY="187dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="goHorizontalLayout"
+                android:text="Linear Layout (Horizontal)"
+                tools:layout_editor_absoluteX="143dp"
+                tools:layout_editor_absoluteY="187dp" />
+        </TableRow>
+       <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+           <Button
+               android:id="@+id/button3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:onClick="goConstraintLayout"
+               android:text="Constraint Layout"
+               tools:layout_editor_absoluteX="143dp"
+               tools:layout_editor_absoluteY="187dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="goFrameLayout"
+                android:text="Frame Layout"
+                tools:layout_editor_absoluteX="143dp"
+                tools:layout_editor_absoluteY="187dp" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

@@ -28,12 +28,6 @@
         android:padding="16dp"
         android:src="@drawable/whatapp"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/android"
-        android:layout_gravity="center"
-        android:padding="16dp"
-        android:src="@drawable/android"/>
+
 
 </FrameLayout>
